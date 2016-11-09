@@ -6,7 +6,7 @@
 // require 'scraperwiki/simple_html_dom.php';
 //
 // // Read in a page
-// $html = scraperwiki::scrape("http://foo.com");
+$html = scraperwiki::scrape("https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=3&codcur=3021&codhab=100&tipo=N");
 //
 // // Find something on the page using css selectors
 // $dom = new simple_html_dom();
